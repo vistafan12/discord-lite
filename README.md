@@ -1,30 +1,16 @@
 # discord-lite
-A liteness Discord version.
-
-To run this program, you need Python 2.7.
+A (shitty) liteness Discord version writhen in Node.js and Electron. Don't use this.
 # Instalation
-Use pip to install PySide.
+To run ```discord-lite``` you need to install all needed dependencies using npm:
 
-```bash
-pip install pyside
+```shell
+npm install 
 ```
 
-our if pip not work on your cmd:
-
-```bash
-python -m pip install pyside
+If you have installed all dependencies successfully, then you can run ```discord-lite``` using this command:
+```shell
+node main.js
 ```
-
-Run Discord Lite with this command:
-
-```bash
-python discord-lite.py
-```
-
-# Information
-Remember - it is the indev version, and owner of this application suck on Python.
-
-You can help him, simply fork this repository and add your "brick" to code.
 
 # License
 See LICENSE file

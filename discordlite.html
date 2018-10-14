@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Discord Lite </title>
+    <link rel="stylesheet" href="discordlite.css">
+    <script src="discordlite.js"></script>
+  <body>
+    <div id="controls">
+      <button id="reload" title="Reload page if Discord not working">&#10227;</button>
+    </div>
+
+    <div id="find-box">
+      <form id="find-form">
+        <input id="find-text" type="text">
+        <div id="find-results"></div>
+        <input type="submit" style="position:absolute; visibility:hidden">
+        <button id="match-case">aA</button>
+        <button id="find-backward">&#60;</button>
+        <button id="find-forward">&#62;</button>
+      </form>
+    </div>
+
+    <webview src="https://discordapp.com/login" style="width:640px; height:480px"></webview>
+
+    <div id="sad-webview">
+      <div id="sad-webview-icon">&#9762;</div>
+      <h2 id="crashed-label">Awwww... crap!</h2>
+      <h2 id="killed-label">rip discord 2015-2017</h2>
+
+      <p>Something went wrong while displaying Discord.
+      To continue, reload page.</p>
+    </div>
+  </body>
+</html>
