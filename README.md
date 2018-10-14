@@ -1,5 +1,5 @@
 # discord-lite
-A liteness Discord version writhen in Node.js and Electron.
+A (shitty) liteness Discord version writhen in Node.js and Electron. Don't use this.
 # Instalation
 To run ```discord-lite``` you need to install all needed dependencies using npm:
 
